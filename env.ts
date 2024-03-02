@@ -3,6 +3,8 @@ import { z } from 'zod';
 const envObj = {
   NOTION_KEY: z.string(),
   NOTION_PAGE_ID: z.string(),
+  SUPABASE_URL: z.string(),
+  SUPABASE_ANON_KEY: z.string(),
 };
 
 export const env = z
